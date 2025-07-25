@@ -164,7 +164,7 @@ namespace ETABs
                 sapModel.AreaObj.SetSelected(areaObject, true);
                 sapModel.View.RefreshView();
                 // Apply the load to each slab section
-                sapModel.AreaObj.SetLoadUniform(areaObject, "SDL", 25, 5);
+                sapModel.AreaObj.SetLoadUniform(areaObject, "SDL", -25, 6);
             }
 
             
